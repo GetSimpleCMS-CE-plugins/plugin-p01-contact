@@ -1,0 +1,31 @@
+{
+    "default_email": "email@domen.com",
+    "lang": "ru",
+    "message_len": "",
+    "default_params": "name!, email!, tel, subject!, message!",
+    "separator": ",",
+    "logs_count": "10",
+    "checklist": [
+        {
+            "name": "",
+            "type": "blacklist",
+            "content": ""
+        },
+        {
+            "name": "",
+            "type": "blacklist",
+            "content": ""
+        },
+        {
+            "name": "",
+            "type": "blacklist",
+            "content": ""
+        }
+    ],
+    "use_honeypot": "on",
+    "min_sec_after_load": "3",
+    "min_sec_between_posts": "5",
+    "max_posts_by_hour": "10",
+    "recaptcha_public_key": "",
+    "recaptcha_secret_key": ""
+}

@@ -1,0 +1,146 @@
+---
+# Russian language file for p01-contact
+key: ru
+name: Russian
+english_name: Russian
+authors: Stanislav Ulver
+date: "2011-10-27"
+compatibility: 1.1
+strings:
+  # basic fields
+  text: текст
+  textarea: текстовая область
+  password: пароль
+  # html5 inputs types
+  color: цвет
+  date: дата
+  email: email
+  month: месяц
+  number: номер
+  range: диапазон
+  search: поиск
+  tel: номер телефона
+  time: время
+  url: URL
+  week: неделя
+  # fields
+  name: Ваше имя
+  email: E-mail
+  address: Почтовый адрес
+  tel: Номер телефона
+  phone: Номер телефона
+  url: Сайт
+  subject: Тема
+  message: Сообщение
+  file: Прикрепить файл
+  captcha: Каптча
+  reload: Обновить
+  askcopy: Отправить мне копию этого сообщения
+  send: Отправить
+  submit: Отправить
+  reload: Перезагрузить
+  reset: Очистить эту форму
+
+  # email words
+  askedcopy: Копия этого письма была запрошена
+  anonymous: Анонимно
+  nosubject: (Без темы)
+  email_title: Письмо отправленно с сайта  
+
+  # status messages
+  sent: "<div class='uk-alert-success uk-margin' uk-alert><a class='uk-alert-close' uk-close></a><p>Ваше сообщение отправлено.</p></div>"
+  error: "<div class='uk-alert-warning uk-margin' uk-alert><a class='uk-alert-close' uk-close></a><p>Ошибка: сообщение не было отправлено.</p></div>"
+  disable: Контактный плагин отключен
+  disable_sub: Отключите отправку почты, не скрывая контактные формы.
+  error_notarget: "<div class="uk-alert-warning" uk-alert><a class="uk-alert-close" uk-close></a><p>Не указан получатель.</p></div>"
+  token: Это сообщение уже было отправлено.
+  
+  sent_debug: "<div class='uk-alert-success' uk-alert><a class='uk-alert-close' uk-close></a><p>Электронное письмо фактически отправлено (включен режим отладки).</p></div>"
+  sent_copy: "<div class='uk-alert-success' uk-alert><a class='uk-alert-close' uk-close></a><p>Электронное письмо отправлено. Копия была отправлена по указанному адресу.</p></div>"
+  sent_copy_error: "<div class='uk-alert-warning' uk-alert><a class='uk-alert-close' uk-close></a><p>Электронное письмо отправлено, но при отправке вам копии возникла проблема.</p></div>"
+  sent_already: "<div class="uk-alert-success' uk-alert><a class='uk-alert-close" uk-close></a><p>Сообщение уже отправлено.</p></div>"
+  # errors
+  error_honeypot: "<div class='uk-alert-warning' uk-alert><a class='uk-alert-close' uk-close></a><p>Вспышка. Клякса. Блуп. Вы почувствовали себя в ловушке для роботов.</p></div>"
+  error_pageload: "<div class='uk-alert-warning' uk-alert><a class='uk-alert-close' uk-close></a><p>Вспышка. Клякса. Блуп. Ты быстр, как робот. Пожалуйста, подождите несколько секунд.</p></div>"
+  error_lastpost: "<div class='uk-alert-warning' uk-alert><a class='uk-alert-close' uk-close></a><p>Вы отправили сообщение совсем недавно. Пожалуйста, подождите немного.</p></div>"
+  error_postcount: "<div class='uk-alert-warning' uk-alert><a class='uk-alert-close' uk-close></a><p>За этот час вы отправили слишком много сообщений.</p></div>"
+
+  # fields errors
+  field_required: Обязательное поле
+  field_email: Неверно указан e-mail адрес
+  field_tel: Неверно указан номер телефона
+  field_url: Неверно указан веб-адрес
+  field_message: Ваше сообщение слишком короткое
+  field_captcha: Каптча не пройдена
+  field_fieldcaptcha: Пожалуйста не заполняйте это поле
+  field_password: Неправильный пароль
+
+  # configuration panel
+
+  config_title: p01contact конфигурация
+
+  # messages
+  config_updated: Изменения сохранены.
+
+  config_error_open: "<b>Никак не открыть конфигурационный файл.</b> Проверьте его существование и права доступа к нему :"
+
+  config_error_modify: "<b>Не удается модифицировать конфигурационный файл.</b> Проверьте права доступа к нему :"
+
+  # New release alert
+  new_release: Это новая версия!
+  download: Скачать последнюю версию
+  repo: Github
+  wiki: Документация / Wiki
+  issues: Помощь / Сообщить об ошибке
+
+  # Parameters
+  enable: Включено
+  enable_sub: Включить или выключить отправку е-mail сообщения (не скрывает контактную форму).
+
+  default_email: Email по умолчанию
+  default_email_sub: Один или несколько адресов электронной почты, разделенных запятыми, которые будут получать письма от всех форм.
+
+  lang: Язык
+  lang_sub: Язык по умолчанию установлен в
+
+  default_params: Параметры по умолчанию
+  default_params_sub: Структура тегов формы. Используйте синтаксис описанный в документации.
+
+  message_len: Минимальная длинна сообщения
+  message_len_sub: Минимальное количество символов для поля сообщения.
+  
+  separator: Разделитель
+  separator_sub: "Разделитель параметров в разметке форм. Пример: запятая, точка с запятой, две вертикальные черты..."
+  
+  logs_count: Количество записей
+  logs_count_sub: Максимальное количество записей для сохранения в журналах.
+  Security: Безопасность
+  checklists: Проверочный список полей
+  blacklist: Черный список
+  whitelist: Белый список
+  checklists_sub: "Черный список: значения, при которых отправка письма не произойдет.<br />Белый список: значения, которые требуются для отправки письма.<br />Элементы разделяются запятыми."
+
+  general_fields: Основные поля
+  special_fields: Специальные поля
+  
+  use_honeypot: Использовать скрытое поле для защиты от спама
+  use_honeypot_sub: Добавьте к каждой форме скрытое поле, которое не следует заполнять. Люди этого не увидят, но большинство спам-ботов попадут в ловушку.
+
+  min_sec_after_load: Минимальное время после загрузки страницы
+  min_sec_after_load_sub: Минимальное количество секунд между загрузкой страницы и отправкой формы. Другим людям требуется по крайней мере несколько секунд, чтобы прочитать, заполнить и отправить форму. Роботы этого не делают.
+  
+  min_sec_between_posts: Минимальное время между двумя отправками
+  min_sec_between_posts_sub: Минимальное количество секунд между двумя отправками формы одним и тем же пользователем.
+
+  max_posts_by_hour: Максимальное количество отправок по часам
+  max_posts_by_hour_sub: Максимальное количество отправок пользователем в час.
+
+  captcha_info: Встроенные механизмы защиты от спама и ошибок должны предотвращать все нежелательные отправки. Если вам нужен более высокий уровень безопасности, вы можете создать пользовательскую капчу, добавив поле с обязательным ответом. Наконец, вы можете вставить Google reCAPTCHA, используя поле <em>captcha</em> с приведенными ниже настройками.
+  recaptcha_public_key: Открытый ключ reCAPTCHA
+  recaptcha_public_key_sub: Открытый ключ Google reCAPTCHA.
+  recaptcha_secret_key: Секретный ключ reCAPTCHA
+  recaptcha_secret_key_sub: Секретный ключ Google reCAPTCHA.
+
+  debug: Режим отладки
+  debug_sub: Отключается отправка емайл сообщения, на экране отображается p01-contact структура данных, и данные которые были бы посланы по электронной почте.
+  debug_warn: Не включайте на рабочем сайте!
